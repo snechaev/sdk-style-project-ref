@@ -1,0 +1,98 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTool", "WindowsFormsApplication1\TestTool.csproj", "{6865F7B5-63B9-435F-9D55-36088FC41B9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSWrapper", "PSWrapper\PSWrapper.csproj", "{1675096E-BF7B-486B-89F9-DFE147418DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_TestFW", "_TestFW\_TestFW.csproj", "{DF08D0A9-64BB-4C17-8E9B-18ED783D4FD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_TestSDK", "_TestSDK\_TestSDK.csproj", "{5D0E6842-CC9E-4693-8F4B-C1DAB7BFECC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugJS|Any CPU = DebugJS|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6865F7B5-63B9-435F-9D55-36088FC41B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6865F7B5-63B9-435F-9D55-36088FC41B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6865F7B5-63B9-435F-9D55-36088FC41B9F}.DebugJS|Any CPU.ActiveCfg = DebugJS|Any CPU
+		{6865F7B5-63B9-435F-9D55-36088FC41B9F}.DebugJS|Any CPU.Build.0 = DebugJS|Any CPU
+		{6865F7B5-63B9-435F-9D55-36088FC41B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6865F7B5-63B9-435F-9D55-36088FC41B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1675096E-BF7B-486B-89F9-DFE147418DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1675096E-BF7B-486B-89F9-DFE147418DBC}.DebugJS|Any CPU.ActiveCfg = Debug|Any CPU
+		{1675096E-BF7B-486B-89F9-DFE147418DBC}.DebugJS|Any CPU.Build.0 = Debug|Any CPU
+		{1675096E-BF7B-486B-89F9-DFE147418DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF08D0A9-64BB-4C17-8E9B-18ED783D4FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF08D0A9-64BB-4C17-8E9B-18ED783D4FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF08D0A9-64BB-4C17-8E9B-18ED783D4FD6}.DebugJS|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF08D0A9-64BB-4C17-8E9B-18ED783D4FD6}.DebugJS|Any CPU.Build.0 = Debug|Any CPU
+		{DF08D0A9-64BB-4C17-8E9B-18ED783D4FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF08D0A9-64BB-4C17-8E9B-18ED783D4FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0E6842-CC9E-4693-8F4B-C1DAB7BFECC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0E6842-CC9E-4693-8F4B-C1DAB7BFECC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0E6842-CC9E-4693-8F4B-C1DAB7BFECC9}.DebugJS|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0E6842-CC9E-4693-8F4B-C1DAB7BFECC9}.DebugJS|Any CPU.Build.0 = Debug|Any CPU
+		{5D0E6842-CC9E-4693-8F4B-C1DAB7BFECC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0E6842-CC9E-4693-8F4B-C1DAB7BFECC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_CodeReferences = {"Items":[{"Expression":"\\W($File.$Key)\\W","Extensions":".cs,.xaml,.cshtml","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"ResourceManager.GetString\\(\"($Key)\"\\)","Extensions":".cs","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"typeof\\((\\w+\\.)*($File)\\).+\"($Key)\"|\"($Key)\".+typeof\\((\\w+\\.)*($File)\\)","Extensions":".cs","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"\\W($Key)\\W","Extensions":".vb","IsCaseSensitive":false,"SingleLineComment":"'"},{"Expression":"\\W($File::$Key)\\W","Extensions":".cpp,.c,.hxx,.h","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"<%\\$\\s+Resources:\\s*($File)\\s*,\\s*($Key)\\s*%>","Extensions":".aspx,.ascx","IsCaseSensitive":true,"SingleLineComment":null},{"Expression":"StringResourceKey\\.($Key)","Extensions":".cs","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"^\\s*\\[\\w+\\s*\\(\\s*\"($Key)\".*\\)\\]\\s*$","Extensions":".cs","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":"Properties.StringResources\\.($Key)","Extensions":".cs, .Designer.cs","IsCaseSensitive":true,"SingleLineComment":"\/\/"},{"Expression":".*global::PhotoTestTool2\\.Properties.StringResources\\.($Key).*","Extensions":".cs","IsCaseSensitive":true,"SingleLineComment":"\/\/"}]}
+		SolutionGuid = {2CAAB292-68A2-494E-AA02-521445D86F10}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WindowsFormsApplication1.vsmdi
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $3
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.scope = text/x-csharp
+		$3.FileWidth = 80
+		$3.TabsToSpaces = True
+		$3.EolMarker = Windows
+		$3.scope = text/plain
+	EndGlobalSection
+EndGlobal
